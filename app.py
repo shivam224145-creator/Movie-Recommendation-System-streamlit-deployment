@@ -25,7 +25,8 @@ st.markdown("""
 # ==========================================
 # STEP 2: ROBUST DATAFRAME GENERATION
 # ==========================================
-artifacts_dir = "artifacts"
+artifacts_dir = ""
+
 
 # We load the dictionary and structural cosine matrix safely
 movies_dict = pickle.load(open(os.path.join(artifacts_dir, "movie_dict.pkl"), "rb"))
